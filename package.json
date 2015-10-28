@@ -1,7 +1,7 @@
 {
   "name": "hubot-tell-a-joke",
   "description": "A hubot script that tells a random joke :)",
-  "version": "0.1",
+  "version": "0.0.1",
   "author": "Sri Harsha Kappala <sriharsha.kappala@hotmail.com>",
   "license": "MIT",
   "keywords": [
