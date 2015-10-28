@@ -21,6 +21,6 @@ Then add **hubot-tell-a-joke** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+hubot>> hubot tell a joke
+hubot>> Not everyone that Chuck Norris is mad at gets killed. Some get away. They are called astronauts.
 ```
