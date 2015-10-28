@@ -16,7 +16,13 @@
 
 module.exports = (robot) ->
   robot.respond /tell a joke/, (res) ->
-    res.reply "hello there!"
+    url = "http://api.icndb.com/jokes/random"
+
+    robot.http(url).get()((err, res, body) ->
+      jsonBody = JSON.parse(body)
+      joke = jsonBody.value.joke
+      msg.send joke
+
 
   robot.hear /tell a joke/, ->
     res.send "hello there!"
