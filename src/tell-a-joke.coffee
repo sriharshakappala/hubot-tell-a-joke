@@ -15,8 +15,8 @@
 #   Sri Harsha Kappala <sriharsha.kappala@hotmail.com>
 
 module.exports = (robot) ->
-  robot.respond /hello/, (res) ->
-    res.reply "hello!"
+  robot.respond /tell a joke/, (res) ->
+    res.reply "hello there!"
 
-  robot.hear /orly/, ->
-    res.send "yarly"
+  robot.hear /tell a joke/, ->
+    res.send "hello there!"
