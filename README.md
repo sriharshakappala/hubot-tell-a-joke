@@ -1,6 +1,6 @@
 # hubot-tell-a-joke
 
-A hubot script that tells a random joke from ICNDB :)
+A hubot script that tells a random Chuck Norris joke from ICNDB :)
 
 See [`src/tell-a-joke.coffee`](src/tell-a-joke.coffee) for full documentation.
 
